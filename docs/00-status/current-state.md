@@ -10,15 +10,17 @@ PRE-LAUNCH / PRE-REVENUE
 
 | Item | Status |
 |---|---|
+| Business name | **Crystal Exteriors** (confirmed 2026-07-07) |
 | Jobs completed | 0 |
 | Revenue to date | $0 |
-| LLC | Not filed |
+| LLC | Not filed — legal name may need variant (e.g. "Crystal Exteriors of South Florida LLC") + DBA for "Crystal Exteriors", verify at filing |
 | Insurance | None yet |
 | Equipment | None purchased yet |
 | CRM | Not set up (leaning Jobber, undecided) |
 | Business bank account | Not opened |
 | Vehicle | Borrowed 2016 Silverado 1500 (dad's) — available |
 | Website / GBP | Not created |
+| Domain / social handles | Domain: getcrystalexteriors.com; social: @getcrystalexteriors (IG/FB/TikTok) — to be registered |
 
 ## Money
 

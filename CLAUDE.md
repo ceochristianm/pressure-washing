@@ -2,7 +2,7 @@
 
 ## What This Business Is
 
-Residential exterior soft-washing business launching in Palm Beach County, South Florida
+**Crystal Exteriors** — residential exterior soft-washing business launching in Palm Beach County, South Florida
 (West Palm Beach, Jupiter, Wellington, Palm Beach Gardens, Boca Raton). Owner: Christian.
 This is a fast-cash bridge business — the long-term play is his separate marketing agency
 (Conversion Consulting). Goal: profitable ASAP, then systematized/delegated so Christian

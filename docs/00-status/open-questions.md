@@ -6,8 +6,6 @@
 - [ ] **CRM final choice** — Jobber (leaning) vs Housecall Pro vs lighter stack
       (Google Sheets + n8n) for month 1. Decision criteria: n8n/webhook integration
       quality, cost during pre-revenue, quote/invoice workflow speed.
-- [ ] **Business name** — needed for insurance application, GBP, and eventually LLC.
-      Check availability on Sunbiz + domain + Instagram handle before committing.
 - [ ] **Exact used-equipment sourcing** — what's actually available on FB Marketplace
       /Craigslist in Palm Beach County this week (prices vary by listing luck).
 - [ ] **Google LSA eligibility timing** — background check can take weeks; apply early

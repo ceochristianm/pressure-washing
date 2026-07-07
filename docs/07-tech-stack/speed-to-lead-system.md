@@ -21,7 +21,7 @@ makes fast response the default instead of depending on watching a phone.
  lead retrieval]                missed-call trigger]
       │                            │
       ├──► 1. INSTANT SMS to lead (within seconds):
-      │    "Hi {name}, this is Christian with {Business Name} — just got your
+      │    "Hi {name}, this is Christian with Crystal Exteriors — just got your
       │    request for a quote on your home. I'm pulling your property up on
       │    satellite right now and will call you in the next few minutes.
       │    What's the best time if I catch you busy?"

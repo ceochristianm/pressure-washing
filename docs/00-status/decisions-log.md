@@ -14,3 +14,4 @@
 | 2026-07-07 | Speed-to-lead automation + KPI tracking = day-1 essentials | Highest-leverage uses of existing automation skills; data from job #1 |
 | 2026-07-07 | Weather scheduling deferred; ZIP analysis = research tool; organic social = light/long-term | Focus launch energy on what generates jobs fastest |
 | 2026-07-07 | Christmas lights Q4 = UNDECIDED (lean: double down on washing instead) | New service = new learning curve; scaling core op may beat juggling two services |
+| 2026-07-07 | Business name: CRYSTAL EXTERIORS confirmed | Cleared FL Sunbiz (no match), no FL/national pressure-washing competitor, no live federal trademark. Domain + all social handles standardized on getcrystalexteriors for brand consistency (crystalexteriors.com/exact handles taken by unrelated MD home-improvement company, zero functional overlap). LLC legal name may need a DBA/variant for Sunbiz distinguishability — verify at actual filing. |
