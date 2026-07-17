@@ -1,7 +1,7 @@
 # Current State — Single Source of Truth
 
 > Update this file whenever reality changes. Claude reads this before advising.
-> Last updated: 2026-07-16
+> Last updated: 2026-07-17
 
 ## Phase
 PRE-LAUNCH / PRE-REVENUE
@@ -18,7 +18,7 @@ PRE-LAUNCH / PRE-REVENUE
 | Equipment | Core rig purchased: BE 4,200 PSI/4.2 GPM gas washer (Honda GX390, new) + PSI Innovations 20" surface cleaner (new), $2,050. Tier 1/2 launch-capable now. Still need: buffer tank, ramp, ratchet straps, chemicals. 12V system deferred to first Tier 3 sale. See `../02-launch/equipment-buying-guide.md` |
 | CRM | Not set up (leaning Jobber, undecided) |
 | Business bank account | Not opened |
-| Vehicle | Borrowed 2016 Silverado 1500 (dad's) — available |
+| Vehicle | OWNED 2006 Chevy Silverado 1500, regular cab (2 seats + middle 3rd), long bed — 2,000 lb payload rating (confirmed). No longer borrowing dad's truck. |
 | Website / GBP | Not created |
 | Domain / social handles | Domain: getcrystalexteriors.com; social: @getcrystalexteriors (IG/FB/TikTok) — to be registered |
 
@@ -48,8 +48,11 @@ PRE-LAUNCH / PRE-REVENUE
 ## Immediate Next Actions (in order)
 
 1. [x] Buy core equipment — pressure washer + surface cleaner purchased new, $2,050
-2. [ ] Source buffer tank (100–200 gal, used) — **verify Silverado payload rating from
-       door-jamb sticker before committing to the large end of this range**
+2. [ ] Source buffer tank (100–200 gal, used) — **payload confirmed at 2,000 lbs; a
+       full 200-gal fill (~1,660 lbs) alone consumes ~83% of that, leaving little room
+       for the washer, surface cleaner, fuel, chemicals, and driver. Lean toward the
+       100–150 gal end, and treat empty-drive/fill-on-site as mandatory, not optional,
+       for anything near 200 gal.**
 3. [ ] Buy ramp + ratchet straps for loading the wheeled cart
 4. [ ] Buy chemicals (SH + surfactant) and O-ring multi-pack
 5. [ ] Get general liability insurance (monthly policy, ~$30–70/mo) — before first job

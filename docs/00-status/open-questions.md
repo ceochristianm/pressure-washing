@@ -14,8 +14,10 @@
 ## Mid-term (Month 2+)
 - [ ] Christmas lights: go/no-go decision by ~end of September (need: summer revenue
       data, whether crew is stable, capital available for bulk light inventory)
-- [ ] When to move off borrowed truck → own truck vs commercial rental (Enterprise
-      ~$350-400/wk) if Silverado needs returning
+- [ ] Now that the Silverado is owned (not borrowed), does business use require
+      commercial auto insurance sooner? Personal auto policies commonly exclude
+      business use — worth a quick check with the GL insurer, since it's now
+      Christian's own asset at risk rather than a return-risk on dad's truck.
 - [ ] Trailer purchase timing (used 5x8 or 6x12 utility, ~$1,500-3,500)
 - [ ] VA hiring timing + source (target ~Month 2 per roadmap)
 

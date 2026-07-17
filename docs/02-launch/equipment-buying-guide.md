@@ -43,9 +43,12 @@ legitimate manufacturer (not a random/no-name brand).
 ### Buffer tank — sizing UP from original 50-gal plan to 100–200 gal
 Sourcing used via Facebook Marketplace, budget **$200–400**.
 
-> **FLAG — verify before committing to the large end of this range:** 200 gal of water
-> weighs ~1,660 lbs. Confirm the actual payload rating off the door-jamb sticker of the
-> Silverado before buying a tank near that size — this has not been verified yet.
+> **FLAG — resolved 2026-07-17, but still tight:** the Silverado is now owned (2006,
+> regular cab, long bed), confirmed 2,000 lb payload rating. A full 200 gal of water
+> weighs ~1,660 lbs — that's ~83% of total payload on its own, leaving little room for
+> the washer, surface cleaner, fuel, chemicals, and driver. Lean toward the **100–150
+> gal end** of the range, and treat empty-drive/fill-on-site as mandatory (not just
+> default) for anything close to 200 gal.
 
 Plan: drive to every job with the tank **empty**, fill on-site via float valve from the
 homeowner's spigot. Only top off to full capacity on jobs that actually need it — not

@@ -46,8 +46,11 @@ Immediate priorities in order:
 ## Key Constraints (do not forget these)
 
 - Solo operator at launch. Dad works Mon–Fri at a roofing company — weekend help only.
-- Vehicle: borrowed 2016 Silverado 1500 (half-ton payload limits; removable skid only,
-  no drilling/permanent mounts).
+- Vehicle: OWNED 2006 Chevy Silverado 1500, regular cab, long bed — 2,000 lb payload
+  rating. No longer borrowed (was dad's); no return-risk or borrowed-vehicle liability
+  exposure. Payload is still tight: a full 200-gal water fill alone (~1,660 lbs) eats
+  ~83% of capacity, so buffer tank sizing and empty-drive/fill-on-site discipline still
+  matter — see `docs/02-launch/equipment-buying-guide.md`.
 - Truck + trailer is the confirmed long-term vehicle path (van ruled out — SH chemical
   fumes in enclosed spaces).
 - Christmas lights Q4 expansion: UNDECIDED — default lean is doubling down on washing.
