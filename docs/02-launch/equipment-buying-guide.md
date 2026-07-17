@@ -44,11 +44,12 @@ legitimate manufacturer (not a random/no-name brand).
 Sourcing used via Facebook Marketplace, budget **$200–400**.
 
 > **FLAG — resolved 2026-07-17, but still tight:** the Silverado is now owned (2006,
-> regular cab, long bed), confirmed 2,000 lb payload rating. A full 200 gal of water
-> weighs ~1,660 lbs — that's ~83% of total payload on its own, leaving little room for
-> the washer, surface cleaner, fuel, chemicals, and driver. Lean toward the **100–150
-> gal end** of the range, and treat empty-drive/fill-on-site as mandatory (not just
-> default) for anything close to 200 gal.
+> regular cab, long bed), confirmed payload rating of **2,052 lbs**. A full 200 gal of
+> water weighs ~1,660 lbs — that's ~81% of total payload on its own, leaving little room
+> for the washer, surface cleaner, fuel, chemicals, and driver. Lean toward the **100–150
+> gal end** of the range (150 gal full ≈ 1,245 lbs, leaving ~450–500 lbs of real buffer),
+> and treat empty-drive/fill-on-site as mandatory (not just default) for anything close
+> to 200 gal. See the Chemical Storage & Handling section below for the finalized plan.
 
 Plan: drive to every job with the tank **empty**, fill on-site via float valve from the
 homeowner's spigot. Only top off to full capacity on jobs that actually need it — not
@@ -140,3 +141,57 @@ plants) — bring a garden hose as gear, connect to the same spigot.
 - **Hardware store** — ramp, ratchet straps.
 - **Local pool supply store** — sodium hypochlorite.
 - **Pro supply shop** — surfactant.
+
+## Chemical Storage & Handling — finalized 2026-07-17
+
+**Sourcing:** Pressure Wash USA (Lake Worth) — bulk pricing $2.05/gallon for 20+
+gallons, $3/gallon under 20 gallons. Buying 20 gallons of 12.5% sodium
+hypochlorite now (~$41 total) to hit the bulk price break.
+
+**Container strategy:**
+- A blue barrel (~50 gal capacity) will hold the SH concentrate, but only
+  FILLED TO 20 GALLONS initially — the extra capacity is headroom for busy
+  weeks (back-to-back jobs, multiple sites/day without needing to cycle back
+  to refill), NOT a fill target. Re-buy concentrate in 20-gal increments
+  (hitting the bulk price each time) as it's actually used down, rather than
+  topping off to 50 just because there's room.
+- Usage cycle is short (days, not weeks/months) — SH potency degradation over
+  time is a non-issue at this pace, since it won't sit long enough to lose
+  meaningful strength.
+- SAFETY REQUIREMENT: before storing concentrated SH in the blue barrel,
+  confirm with the seller (1) what it was previously used for if secondhand,
+  and (2) that it's UV-stabilized, food-grade or chemical-rated HDPE plastic.
+  If history/rating can't be confirmed, do NOT use it for concentrate storage —
+  use it for the plain-water buffer tank instead, and buy a proper smaller
+  chemical-rated tote for the SH specifically.
+- The separate MIXING tank (for diluted working solution) will be a tank
+  explicitly sold/rated for pressure washing chemical use — confirmed
+  chemical-approved at purchase, not a generic container.
+- Practical habit: mark/date the barrel with tape + marker each time it's
+  filled, so nothing accidentally sits longer than the intended few-days cycle.
+
+**Buffer/water tank:** separate from chemical storage — plain water only, feeds
+the pump via float valve auto-fill from the homeowner's spigot on-site. Tank
+size target: 100-150 gal (not 200) per the confirmed 2006 Silverado payload
+rating of 2,052 lbs — 150 gal full (~1,245 lbs) + equipment (~300-350 lbs)
+leaves ~450-500 lbs of real buffer; 200 gal full (~1,660 lbs) leaves almost no
+margin. If a 200-gal tank is the best deal found, fill to ~150 gal max as a
+practical ceiling rather than topping it off.
+
+## Testing Log
+
+- 2026-07-17: Tested rig on own driveway using 40°/25° handheld nozzle tips —
+  produced zebra striping. DIAGNOSIS: free-handing a driveway with handheld
+  tips relies on perfect manual consistency (distance/speed/overlap) which is
+  hard to achieve — this is exactly the problem the surface cleaner solves.
+  FIX: use the surface cleaner (Rotoeze Advantage 20") for all main driveway
+  surface work going forward. Reserve handheld 25°/15° tips exclusively for
+  edges/corners/spots the surface cleaner can't reach. If handheld streaking
+  persists on edge-work: hold wand perpendicular to surface (not angled),
+  keep consistent distance, steady pace, ~50% pass overlap.
+- 2026-07-17 (planned): Testing Rotoeze Advantage 20" surface cleaner on
+  neighbor's driveway, free of charge. Using existing gear only — no buffer
+  tank or 12V system needed for this test (direct spigot connection). Goals:
+  time the full job for future quoting baseline, check for even coverage/no
+  zebra striping with the surface cleaner, take before/after photos, get
+  informal feedback.
