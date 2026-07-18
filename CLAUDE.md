@@ -44,8 +44,9 @@ Immediate priorities in order:
 2. Build landing page + stand up speed-to-lead automation (see `docs/07-tech-stack/`)
 3. Launch Google Search ads at $35–50/day, $1,000 initial budget
    (see `docs/03-sales-marketing/google-lsa-ppc.md`)
-4. In parallel: GBP verification + first reviews, LSA application submitted
-   (background check takes weeks)
+4. In parallel: GBP verification + first reviews from PPC-generated jobs.
+   Google LSA is DEFERRED — do not apply until GBP is verified and carrying
+   reviews (LSA rank depends on it); do not re-suggest applying early.
 
 ## Key Constraints (do not forget these)
 

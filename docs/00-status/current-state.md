@@ -65,6 +65,9 @@ PRE-LAUNCH / PRE-REVENUE
        textback + instant notification + UTM-tagged forms) — REQUIRED before ads
 8. [ ] Launch Google Search ads: $35–50/day, $1,000 initial budget, tight match
        types + negative keywords from day 3
-9. [ ] Submit Google LSA application now (background check takes weeks; fund later)
-10. [ ] Backup channels when time allows: Marketplace listings, realtor cold calls
-11. [ ] File LLC within 30–60 days of first job (or immediately upon hiring/commercial work)
+9. [ ] Backup channels when time allows: Marketplace listings, realtor cold calls
+10. [ ] File LLC within 30–60 days of first job (or immediately upon hiring/commercial work)
+
+> Google LSA is DEFERRED, not on this list — it needs GBP verified + reviews in
+> place first (see `../03-sales-marketing/google-lsa-ppc.md`). Do not re-suggest
+> applying early; this was decided 2026-07-18.

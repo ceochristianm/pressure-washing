@@ -8,8 +8,6 @@
       quality, cost during pre-revenue, quote/invoice workflow speed.
 - [ ] **Exact used-equipment sourcing** — what's actually available on FB Marketplace
       /Craigslist in Palm Beach County this week (prices vary by listing luck).
-- [ ] **Google LSA eligibility timing** — background check can take weeks; apply early
-      even if not funding it yet?
 
 ## Mid-term (Month 2+)
 - [ ] Christmas lights: go/no-go decision by ~end of September (need: summer revenue

@@ -1,8 +1,9 @@
 # Google PPC + LSA
 
-> UPDATED 2026-07-17: PPC promoted from "deferred to Month 2–3" to **the primary
-> launch channel** (paid-first pivot — see decisions-log). LSA still applies-early,
-> funds-later. GBP created, verification pending.
+> UPDATED 2026-07-18: PPC promoted from "deferred to Month 2–3" to **the primary
+> launch channel** (paid-first pivot — see decisions-log). LSA is DEFERRED, not
+> apply-now — it needs GBP verified + reviews in place first (see below). GBP
+> created, verification pending.
 
 ## Search Ads (PPC) — PRIMARY LAUNCH CHANNEL
 
@@ -37,12 +38,14 @@ strongest skills: PPC, landing pages, ad copy, speed-to-lead, phone closing.
   appropriate); track response_time_min on every row
 - Weekly: CPL, CPJ, close rate by keyword → feed the weekly review
 
-## Local Services Ads (LSA) — apply now, fund later
-- Pay-per-lead (calls), "Google Guaranteed" badge, highest intent channel in the space
-- Background check / verification takes WEEKS → **submit the application now**
-  (insurance COI in hand as of 2026-07-17)
-- Reviews matter for LSA ranking — another reason GBP reviews compound
-- Benchmarks to calibrate: CPL ~$40–50, close ~50% (high intent). Verify with actuals.
+## Local Services Ads (LSA) — DEFERRED (2026-07-18)
+- Not being applied for yet. LSA ranking depends heavily on GBP reviews — applying
+  before GBP is verified and carrying reviews means launching into a low-rank
+  position, which defeats the point of a pay-per-lead placement channel.
+- Revisit once GBP is verified and has a real review count (see PPC-generated jobs
+  below for how those reviews get built).
+- Reference for later: pay-per-lead (calls), "Google Guaranteed" badge. Benchmarks
+  to calibrate when the time comes: CPL ~$40–50, close ~50% (high intent).
 
 ## Google Business Profile (free — created, verification pending)
 - Status 2026-07-17: profile created, awaiting verification. Complete it — cold PPC
