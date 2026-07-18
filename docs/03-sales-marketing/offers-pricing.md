@@ -29,3 +29,38 @@ pay-at-closing option on listed properties. Volume relationship > single-job mar
 - Neighbor discount (door-hanger, same street, same day): up to 15% — drive time saved is real margin
 - Never discount Tier 3 (premium buyers don't need it)
 - Every discount gets a reason attached ("already on your street", "portfolio", "realtor partner") — unreasoned discounts train price-shopping
+
+## Bundle Discount Rule (percentage off COMBINED total of selected services)
+
+### 2-Service Bundles: flat 10% off combined total (all sizes)
+
+### Full Package (3 services): scaled by size — FINALIZED 2026-07-18
+| Size | Discount | Net profit example (after ~10% variable cost) |
+|---|---|---|
+| Small | 15% | ~$840 |
+| Medium | 20% | ~$1,022 |
+| Large | 25% | ~$1,239 |
+
+Rationale: Small full-packages are rare so margin is protected with a smaller
+discount. Medium is the realistic middle ground. Large gets the biggest discount
+specifically because it's the highest-margin-cushion job and the one worth
+aggressively selling — even at 25% off, Large full packages net $1,200+ profit,
+hitting the explicit $1K+ profit target.
+
+Negotiation ceiling: respond to price objections with value/differentiation
+first (insurance, soft-wash safety), no discount offered yet. If still pushed:
+2-bundle max ceiling ~15-18%; full package ceiling is already the finalized
+size-scaled % above (do not exceed 25% even on Large). Absolute floor: never
+below the sum of individual base prices with zero discount at all. Philosophy:
+losing a pure price-shopper to a cheaper competitor is the pricing strategy
+working, not failing — that customer was never the target.
+
+## Pre-Calculated Bundle Examples (Medium-size home, using price midpoints)
+| Combo | Individual total | Bundle price |
+|---|---|---|
+| Driveway ($260) + Siding ($550) | $810 | ~$730 (10% off) |
+| Siding ($550) + Roof ($650) | $1,200 | ~$1,080 (10% off) |
+| Driveway ($260) + Roof ($650) | $910 | ~$820 (10% off) |
+| Full Package, Small ($1,120) | $1,120 | ~$952 (15% off) |
+| Full Package, Medium ($1,460) | $1,460 | ~$1,168 (20% off) |
+| Full Package, Large ($1,905) | $1,905 | ~$1,429 (25% off) |
