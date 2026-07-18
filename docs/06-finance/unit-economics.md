@@ -9,7 +9,7 @@
 - Cost per booked job (CPJ) = channel spend / jobs booked from channel
 - Break-even CPJ on a $550 job ≈ $480 (absurd headroom) — but the REAL bar is
   opportunity + payback speed: target CPJ < $100 paid channels
-- Free channels (Nextdoor/signs/knocks): CPJ ≈ time only → why they lead the launch
+- Free channels (Marketplace/signs/knocks): CPJ ≈ time only → why they lead the launch
 
 ## Break-even snapshot (launch)
 - Total launch outlay ~$2,100–3,000 → covered by 4–6 jobs at $550 AJS

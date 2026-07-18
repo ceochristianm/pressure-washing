@@ -1,19 +1,13 @@
 # Organic / Free Channels
 
-## Nextdoor (personal account)
-- Portfolio-building post (script in first-jobs-playbook.md) at launch
-- After launch: post before/afters as "neighbor recommendations" cadence, not spam —
-  1–2x/month per area max
-- Respond to every "anyone know a pressure washer?" thread within minutes (set alerts)
-
-## Facebook groups (10–15 local community/mom/resident groups)
-- Join week 1: Wellington, Royal Palm, Jupiter, PBG, WPB resident + moms groups
-- Value-first posting; before/after photos outperform text
-- Watch for recommendation threads — same speed rule
+> Nextdoor and Facebook community groups were removed from the plan (2026-07-17)
+> — decision made to focus effort on channels with clearer ROI for this business.
 
 ## Facebook Marketplace
 - 3–5 standing service listings, refreshed weekly, before/after photos,
   titles like "House Soft-Washing / Driveway Cleaning — [Area]"
+- Real, active category for this trade — skews toward price-shopping, treat as
+  volume/backup, not primary bet
 
 ## Google Business Profile
 - See google-lsa-ppc.md — the compounding free channel; reviews are the currency

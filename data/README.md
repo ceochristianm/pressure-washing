@@ -6,7 +6,7 @@
 
 ## leads.csv — every lead, every source
 date,source,name,phone,zip,response_time_min,conversation,quoted_tier,quoted_amount,outcome,booked_date,notes
-- source: nextdoor|fb_group|marketplace|yard_sign|door_hanger|door_knock|realtor|gbp|meta_ad|referral|other
+- source: marketplace|yard_sign|door_hanger|door_knock|realtor|gbp|meta_ad|referral|other
 - outcome: booked|lost_price|lost_ghost|not_qualified|pending
 
 ## jobs.csv — every completed job

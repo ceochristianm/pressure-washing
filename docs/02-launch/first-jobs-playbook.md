@@ -15,10 +15,12 @@
 
 ## Priority sequence
 
-### Day 1–2: The Nextdoor + Facebook portfolio play
-Post on personal Nextdoor account + 10–15 local FB groups (Wellington, Jupiter,
-West Palm, Royal Palm Beach community/mom/resident groups) + 3–5 FB Marketplace
-service listings.
+### Day 1–2: The Facebook Marketplace portfolio play
+
+> Nextdoor and Facebook community groups removed from the plan (2026-07-17) —
+> decision made to focus effort on channels with clearer ROI.
+
+Post 3–5 FB Marketplace service listings.
 
 The angle that works: local individual building a portfolio, not a faceless company.
 

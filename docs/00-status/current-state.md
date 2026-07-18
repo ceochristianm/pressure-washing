@@ -21,6 +21,7 @@ PRE-LAUNCH / PRE-REVENUE
 | Vehicle | OWNED 2006 Chevy Silverado 1500, regular cab (2 seats + middle 3rd), long bed — 2,052 lb payload rating (confirmed). No longer borrowing dad's truck. |
 | Website / GBP | Not created |
 | Domain / social handles | Domain: getcrystalexteriors.com; social: @getcrystalexteriors (IG/FB/TikTok) — to be registered |
+| Marketing/outreach | Nothing posted yet — Marketplace, realtor calls all still pending (Nextdoor/FB groups dropped from plan) |
 
 ## Money
 
@@ -55,6 +56,7 @@ PRE-LAUNCH / PRE-REVENUE
 4. [ ] Buy chemicals (SH + surfactant) and O-ring multi-pack
 5. [ ] Get general liability insurance (monthly policy, ~$30–70/mo) — before first job
 6. [ ] Set up Google Business Profile + basic phone/booking flow
-7. [ ] Launch free-channel job hunt (Nextdoor, FB groups, Marketplace) — first 3 jobs
+7. [ ] Launch free-channel outreach same day equipment is in hand: Marketplace posts,
+       realtor cold calls (5-10)
 8. [ ] Stand up speed-to-lead automation before turning on paid ads
 9. [ ] File LLC within 30–60 days of first job (or immediately upon hiring/commercial work)
