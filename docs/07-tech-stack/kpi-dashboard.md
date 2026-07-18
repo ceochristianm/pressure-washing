@@ -11,7 +11,7 @@
 3. **Total spend** vs. $3,000 ceiling
 
 ### Growth metrics (weekly once leads flow)
-4. **Leads by source** (Marketplace / yard sign / door hanger / realtor / Meta ad / GBP)
+4. **Leads by source** (Google PPC / LSA / GBP / Marketplace / door hanger / realtor / referral)
 5. **Speed-to-lead** — median minutes from lead-in to first human call
 6. **Close rate** = booked jobs / real conversations (by source)
 7. **Cost per booked job** (paid channels) — the number that decides ad scaling

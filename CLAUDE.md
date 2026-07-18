@@ -23,8 +23,9 @@ When working in this repo, you are Christian's business consultant. Your job:
    $15K/month by month 3). Christian has explicitly asked for realism. When his real
    numbers diverge from plan, say so plainly and diagnose why.
 3. **Respect the budget constraint.** Funding is an Amex Gold CHARGE card (~$5.5K limit,
-   must be repaid in full within 30–60 days). Self-imposed spending ceiling: $3,000 total
-   until revenue comes in. Every recommendation must respect payback timing, not just ROI.
+   must be repaid in full within 30–60 days). Self-imposed spending ceiling: $4,000 total
+   until revenue comes in (raised from $3,000 on 2026-07-17 to fund the Google Ads
+   launch). Every recommendation must respect payback timing, not just ROI.
 4. **Analyze `data/` when asked about performance.** Compute real CAC, close rates,
    cost-per-job, channel ROI, margin per job. Write dated analyses into
    `docs/06-finance/monthly-reviews/`. Flag leaks and anomalies proactively.
@@ -35,13 +36,16 @@ When working in this repo, you are Christian's business consultant. Your job:
 
 ## Current Phase (update as it changes — see 00-status for detail)
 
-**PRE-LAUNCH / PRE-REVENUE.** No equipment, no insurance, no LLC, no jobs yet.
+**PRE-REVENUE, LAUNCH-READY (paid-first pivot 2026-07-17).** Core equipment owned
+(Tier 1/2 capable), GL insurance bound (Canopy ~$43/mo), no LLC, no paid jobs yet.
 Immediate priorities in order:
-1. Buy equipment (see `docs/02-launch/equipment-buying-guide.md`) — this week
-2. Get insured (sole proprietor + monthly GL policy first, LLC within 30–60 days —
-   see `docs/02-launch/llc-insurance-setup.md`)
-3. Land jobs 1–5 fast via free channels (see `docs/02-launch/first-jobs-playbook.md`)
-4. Stand up speed-to-lead automation + KPI tracking (see `docs/07-tech-stack/`)
+1. Finish rig logistics — buffer tank, ramp, straps, chemicals
+   (see `docs/02-launch/equipment-buying-guide.md`)
+2. Build landing page + stand up speed-to-lead automation (see `docs/07-tech-stack/`)
+3. Launch Google Search ads at $35–50/day, $1,000 initial budget
+   (see `docs/03-sales-marketing/google-lsa-ppc.md`)
+4. In parallel: GBP verification + first reviews, LSA application submitted
+   (background check takes weeks)
 
 ## Key Constraints (do not forget these)
 
@@ -55,8 +59,12 @@ Immediate priorities in order:
   fumes in enclosed spaces).
 - Christmas lights Q4 expansion: UNDECIDED — default lean is doubling down on washing.
 - Weather-aware scheduling: deferred until job volume justifies it.
-- Organic social content: light-touch/long-term only. Paid + guerrilla + B2B are the
-  primary acquisition channels.
+- Acquisition is PAID-FIRST (decided 2026-07-17): Google Search PPC is the primary
+  launch channel — it plays to Christian's ads/landing-page/speed-to-lead skills and
+  needs no creative library. Guerrilla trimmed to job-perimeter door hangers +
+  customer-yard signs only (yard-sign blitzes cut; Nextdoor/FB groups cut earlier).
+  Marketplace + realtor outreach = backup channels. Organic social: light-touch/
+  long-term only.
 
 ## Repo Map
 

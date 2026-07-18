@@ -1,48 +1,49 @@
-# First Jobs Playbook — Jobs 1 Through 5, Fast and Free
+# First Jobs Playbook — Jobs 1 Through 5, Fast
 
-> Objective: first paid job within 72 hours of equipment + insurance being ready,
-> first 5 jobs within ~2 weeks, spending $0–100 on marketing. Paid ads come AFTER
-> the speed-to-lead system is live and the service has been performed at least 2–3
-> times (learn on cheap jobs, not on $25/lead ad traffic).
+> REWRITTEN 2026-07-17 (paid-first pivot): Google Search ads are now the PRIMARY
+> job source, not the eventual layer. Free channels demoted to backup. See
+> `../00-status/decisions-log.md` and `../03-sales-marketing/google-lsa-ppc.md`.
+> Objective: first paid job within days of the ads going live; 3–7 jobs from the
+> first $1,000 of ad spend.
 
-## Why free channels first (not ads)
+## Why paid-first (decided 2026-07-17)
 
-1. Ads take 3–7 days to approve/optimize anyway.
-2. First jobs WILL be slow and imperfect — better to learn on discounted portfolio
-   jobs than burn paid leads with rookie execution.
-3. Every early job generates the assets ads need: before/after photos, a Google
-   review, and confidence on the phone.
+1. Free channels are slow to ROI — and the Amex payback clock is running.
+2. Christian's edge is ads/landing pages/speed-to-lead/phone sales, not
+   networking and community posting. Play the best cards.
+3. Search intent needs no photo library or editing — the thing that blocks
+   Meta/TikTok right now.
+4. One free practice job is already done (neighbor's driveway, 2026-07-17) —
+   execution basics validated, surface cleaner process proven.
 
 ## Priority sequence
 
-### Day 1–2: The Facebook Marketplace portfolio play
+### First: the ad launch checklist
+Everything here before a dollar of spend (see `../03-sales-marketing/google-lsa-ppc.md`
+for the full build spec):
+- [x] Insurance bound (Canopy, 2026-07-17)
+- [ ] Landing page live (mobile-first, click-to-call + short form)
+- [ ] Speed-to-lead running: missed-call instant textback + loud notification
+- [ ] Dedicated OpenPhone number + UTM-tagged forms for attribution
+- [ ] GBP verification completed (profile created, pending) — cold leads WILL
+      Google the business name before calling back
+Then: launch at $35–50/day and follow the discipline rules in the ads doc.
 
-> Nextdoor and Facebook community groups removed from the plan (2026-07-17) —
-> decision made to focus effort on channels with clearer ROI.
-
-Post 3–5 FB Marketplace service listings.
-
-The angle that works: local individual building a portfolio, not a faceless company.
-
-> "Hey neighbors — I'm launching an independent exterior cleaning business here in
-> [area]. I specialize in soft-washing (safe, low-pressure) for siding, driveways,
-> and roofs. To build my local portfolio and get my first Google reviews, I'm doing
-> the next 5 homes at cost — you basically just cover my chemicals and fuel.
-> Message me your address and I'll send a quote same-day."
-
-Rules: respond to every DM within minutes; quote from Google Earth satellite view;
-book a specific day/time on the first exchange.
-
-### Day 2–7: Guerrilla layer
-- **Yard signs (~$100, the only spend):** ~20 blank corrugated signs, bold text only:
-  "HOUSE WASHING" + phone number. Place Thursday/Friday evening at intersections
-  near gated community entrances. No logo, no website — scannable at 45 mph.
-- **Door hangers around every job:** while the machine is running, hit the 5 nearest
-  homes (2 each side, 3 across) with an "I'm on your street today" discount note.
+### Alongside the ads: the job-perimeter layer
+- **Door hangers around every job:** while the machine is running, hit the ~10
+  nearest homes with an "I'm on your street today" discount note. 15 minutes,
+  converts at multiples of any cold drop. (Mass drops and yard-sign blitzes
+  are CUT — see `../03-sales-marketing/offline-guerrilla.md`.)
+- **Customer-yard sign:** one sign in the customer's yard with permission for
+  ~1 week post-job ($25-off trade).
 - **The 10-door knock:** when working inside a gated community, knock nearby doors.
   Timing (settled earlier): knock BEFORE starting the job when possible — clean,
   fresh, not sweaty; and the roaring rig later validates you. Mid-job second pass
   optional if someone waves/watches.
+
+### Backup channels (when time allows, not gating anything)
+- 3–5 FB Marketplace service listings, refreshed weekly. Expect price-shoppers;
+  treat as volume filler, respond to every DM within minutes anyway.
 
 ### Day 3–14: The realtor fast lane (zero cost, high ticket)
 Two channels only for now (skip networking events — low ROI):
@@ -55,14 +56,14 @@ Two channels only for now (skip networking events — low ROI):
 
 Full scripts: `../03-sales-marketing/b2b-realtors-hoa.md` and `sales-scripts.md`.
 
-## Pricing on the first 3 jobs
+## Pricing on the first jobs
 
-Discount is fine (portfolio play) but never free, and never below chemical+fuel+$100.
-Suggested: Tier 1 wash at ~$200–250 "portfolio rate" with the review ask built into
-the deal explicitly: "the discount is in exchange for an honest Google review and
-before/after photos I can use."
+Ad leads get the full 3-tier menu — they searched with intent; don't volunteer
+discounts. Expect early closes nearer $400–500 than $550: flexing modestly to win
+the first jobs is fine, but never below chemical+fuel+$100, and any discount is
+traded explicitly for "an honest Google review and before/after photos I can use."
 
-From job 4 onward: full 3-tier menu, no discounts. See `../03-sales-marketing/offers-pricing.md`.
+See `../03-sales-marketing/offers-pricing.md`.
 
 ## The asset capture checklist (every early job, no exceptions)
 
@@ -73,10 +74,13 @@ From job 4 onward: full 3-tier menu, no discounts. See `../03-sales-marketing/of
 - [ ] Log the job in `data/jobs.csv` same day (price, costs, time on site, upsell attempted?)
 - [ ] Film any new SOP moments (chemical mixing, masking) → `../04-operations/video-sop-library.md`
 
-## Gate to paid ads
+## Gate to Meta ads (Google Search is already live-path — this gate is for Meta only)
 
-Turn Meta ads on only when ALL of these are true:
-- [ ] 2–3 jobs completed (execution confidence + creative assets exist)
-- [ ] Speed-to-lead automation live (instant SMS + notification — see `../07-tech-stack/speed-to-lead-system.md`)
-- [ ] Google Business Profile live with 2+ reviews
-- [ ] Amex math checked: ad budget fits inside remaining ceiling with payback window in mind
+> 2026-07-17: the old "2–3 jobs before any paid ads" gate was waived for Google
+> Search (see decisions-log — search needs no creative and the practice job
+> validated execution). Meta keeps a gate because it IS creative-dependent:
+
+- [ ] 10–15 strong before/after photo sets + 2–3 surface-cleaner video clips
+- [ ] Speed-to-lead automation proven on Google leads
+- [ ] GBP verified with reviews accumulating
+- [ ] Google Ads CPL/CPJ known, so Meta has a benchmark to beat
