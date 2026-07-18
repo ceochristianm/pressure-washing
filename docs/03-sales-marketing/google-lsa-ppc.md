@@ -22,15 +22,47 @@ strongest skills: PPC, landing pages, ad copy, speed-to-lead, phone closing.
 - Break-even CPA per job ≈ $480 — the economics forgive a rough start
 
 **Build requirements before launch:**
-- [ ] Landing page: local proof, clear 3-tier offer, click-to-call + short form,
-      mobile-first (most searches are mobile)
+- [ ] Landing page built in **Landingi** ($29/mo — chosen 2026-07-18 over hand-coding:
+      Christian's skill set is no-code funnel building, not development, and Landingi
+      lets him self-edit/test copy going forward without coming back to Claude Code
+      every time). Use Lunar (AI generator) for a first draft, refine with Classic
+      Builder + AI Assistants, wire the form through Forms & Integrations to the
+      speed-to-lead stack. Local proof, clear 3-tier offer, click-to-call + short
+      form, mobile-first layout. Consider one dedicated page per service tier
+      (siding/driveway/roof) matched to its ad group — improves Quality Score.
 - [ ] Dedicated OpenPhone number on all ads; UTM-tagged forms (CallRail deferred —
       basic OpenPhone plan + UTMs = ~90% of attribution at $0)
 - [ ] Speed-to-lead live: missed-call instant textback + loud notification
       (see `../07-tech-stack/speed-to-lead-system.md`)
 - [ ] Tight keyword list (exact/phrase), negative keywords from day 3 —
       block "rental", "repair", "how to", job-seeker and DIY queries
-- [ ] Geo: target ZIP shortlist only, not a radius blob
+- [ ] Geo: **postal code (ZIP) targeting**, not radius or county — see Campaign
+      Setup below and `../01-strategy/zip-code-targeting.md`
+
+**Campaign setup (decided 2026-07-18):**
+- **Bidding: Manual CPC at launch**, not Smart Bidding (Target CPA/Maximize
+  Conversions) — a brand-new account lacks the conversion volume for Smart Bidding
+  to calibrate well, and some Smart Bidding strategies restrict manual device/geo
+  control anyway. Revisit once there's real conversion history.
+- **Devices: target ALL devices, no mobile-only default.** Christian's PI law-firm
+  experience leaned mobile-only (crisis urgency = phone-in-hand behavior), but
+  pressure washing is lower-urgency "getting quotes" behavior — desktop plausibly
+  converts fine via forms (easier to type an address/describe the job), and may be
+  under-bid/cheaper if competitors default to mobile-only out of habit. Don't
+  assume the PI pattern transfers — pull a device-level breakdown after ~$300–400
+  spend and adjust bid adjustments based on actual data.
+- **Geo-targeting: postal code (ZIP), not radius or county.** The target ZIPs
+  (see `../01-strategy/zip-code-targeting.md`) are geographically scattered
+  clusters (Wellington, PBG/Jupiter, west Boca), not one contiguous area — a
+  radius sweeps in non-target territory between them, and county-level is far
+  too broad for a $35–50/day budget. Add the shortlist ZIPs directly as location
+  targets. **Location option MUST be set to "Presence"** (people located in/
+  regularly in the ZIPs), not "Presence or interest" — otherwise the ad also
+  shows to people merely searching about the area from elsewhere, which is
+  useless for a business that needs the customer physically there.
+- Start concentrated on 2–3 ZIPs closest to home base for route density (same
+  principle the Meta section of the ZIP doc already applies), expand once
+  `data/jobs.csv` shows which ZIPs actually convert.
 
 **Discipline rules:**
 - Don't judge performance before ~$300–400 spend (new-account learning phase)

@@ -1,7 +1,7 @@
 # Current State — Single Source of Truth
 
 > Update this file whenever reality changes. Claude reads this before advising.
-> Last updated: 2026-07-17
+> Last updated: 2026-07-18
 
 ## Phase
 PRE-LAUNCH / PRE-REVENUE
@@ -19,7 +19,7 @@ PRE-LAUNCH / PRE-REVENUE
 | CRM | Not set up (leaning Jobber, undecided) |
 | Business bank account | Not opened |
 | Vehicle | OWNED 2006 Chevy Silverado 1500, regular cab (2 seats + middle 3rd), long bed — 2,052 lb payload rating (confirmed). No longer borrowing dad's truck. |
-| Website / GBP | GBP created, verification PENDING, no reviews yet. Landing page not built — required before Google Ads launch. |
+| Website / GBP | GBP created, verification PENDING, no reviews yet. Landing page not built yet — tool chosen: Landingi ($29/mo). Required before Google Ads launch. |
 | Domain / social handles | Domain: getcrystalexteriors.com; social: @getcrystalexteriors (IG/FB/TikTok) — to be registered |
 | Marketing/outreach | PAID-FIRST pivot 2026-07-17: Google Search ads = primary channel, $1,000 initial at $35–50/day (not yet launched — landing page + speed-to-lead first). Yard-sign blitzes cut; door hangers = ~10-door job-perimeter only. Marketplace/realtor = backup channels, nothing posted yet. |
 
