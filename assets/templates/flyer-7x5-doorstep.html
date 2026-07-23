@@ -1,0 +1,554 @@
+<title>Crystal Exteriors — Doorstep Flyer</title>
+<style>
+  :root {
+    --page-bg: #eef1f6;
+    --page-ink: #0d1a2b;
+    --page-sub: #51617a;
+    --page-panel: #ffffff;
+    --page-line: #d9e2ee;
+    --accent: #0a63c9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --page-bg: #0b1220;
+      --page-ink: #eef2f8;
+      --page-sub: #9aabc4;
+      --page-panel: #131c2e;
+      --page-line: #263049;
+    }
+  }
+  :root[data-theme="dark"] {
+    --page-bg: #0b1220;
+    --page-ink: #eef2f8;
+    --page-sub: #9aabc4;
+    --page-panel: #131c2e;
+    --page-line: #263049;
+  }
+  :root[data-theme="light"] {
+    --page-bg: #eef1f6;
+    --page-ink: #0d1a2b;
+    --page-sub: #51617a;
+    --page-panel: #ffffff;
+    --page-line: #d9e2ee;
+  }
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    background: var(--page-bg);
+    color: var(--page-ink);
+    font-family: "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif;
+  }
+  svg.defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+
+  .page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    padding: 36px 20px 60px;
+  }
+
+  .toolbar {
+    width: 100%;
+    max-width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+  }
+  .toolbar h1 {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    margin: 0 0 2px;
+  }
+  .toolbar p {
+    margin: 0;
+    font-size: 12.5px;
+    color: var(--page-sub);
+  }
+  .toolbar-controls {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .toggle {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--page-sub);
+    cursor: pointer;
+    user-select: none;
+  }
+  .toggle input {
+    width: 15px;
+    height: 15px;
+    accent-color: var(--accent);
+  }
+  .toggle input:focus-visible,
+  button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+  button.printbtn {
+    font: inherit;
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, #0a63c9, #0e9bd8);
+    border: none;
+    border-radius: 10px;
+    padding: 9px 16px;
+    cursor: pointer;
+    box-shadow: 0 6px 16px rgba(10, 99, 201, 0.28);
+  }
+  button.printbtn:hover { filter: brightness(1.05); }
+
+  .stage {
+    background: var(--page-panel);
+    border: 1px solid var(--page-line);
+    border-radius: 20px;
+    padding: 28px;
+    box-shadow: 0 14px 40px rgba(13, 26, 43, 0.12);
+  }
+
+  /* ============ THE FLYER ITSELF — fixed light print palette, ============ */
+  /* ============ intentionally NOT theme-reactive (represents ink on paper) */
+  .flyer {
+    --ink: #0d1a2b;
+    --sub: #51617a;
+    --faint: #8595ab;
+    --line: #d9e2ee;
+    --bg1: #f7f9fc;
+    --bg2: #e9eef6;
+    --blue: #0a63c9;
+    --blue-deep: #084a94;
+    --cyan: #0e9bd8;
+    --green: #189a52;
+    --red: #d93636;
+    --amber: #c97a10;
+    --tile: #a9b9cd;
+
+    position: relative;
+    width: 7.25in;
+    height: 5.25in;
+    overflow: hidden;
+    background:
+      radial-gradient(circle at 1px 1px, rgba(120, 140, 170, 0.18) 1px, transparent 0) 0 0 / 38px 38px,
+      linear-gradient(135deg, var(--bg1), var(--bg2));
+    border-radius: 6px;
+    color: var(--ink);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .flyer { animation: riseIn 0.6s cubic-bezier(.2,.7,.2,1) 0.1s forwards; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .flyer { opacity: 1; transform: none; }
+  }
+  @keyframes riseIn {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .trim-guide,
+  .safe-guide {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+  }
+  .trim-guide { inset: 0.125in; border: 1px dashed rgba(13, 26, 43, 0.55); }
+  .safe-guide { inset: 0.375in; border: 1px dashed rgba(217, 54, 54, 0.55); }
+  .flyer.show-guides .trim-guide,
+  .flyer.show-guides .safe-guide { opacity: 1; }
+
+  .content {
+    position: absolute;
+    inset: 0.375in;
+    display: grid;
+    grid-template-columns: 1.32fr 1fr;
+    gap: 22px;
+  }
+
+  .col-left { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+  .col-right { display: flex; flex-direction: column; gap: 14px; min-width: 0; position: relative; }
+
+  .brandmark {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .brandmark .name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+  }
+  .dot {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--blue), var(--cyan));
+    flex-shrink: 0;
+  }
+  .brandmark .domain {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--sub);
+    letter-spacing: 0.01em;
+  }
+
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--blue-deep);
+  }
+  .tick {
+    width: 22px;
+    height: 4px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--blue), var(--cyan));
+    flex-shrink: 0;
+  }
+
+  h1.headline {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  h1.headline .hl { color: var(--blue); }
+
+  p.subhead {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.45;
+    color: var(--sub);
+    margin: 0;
+    max-width: 46ch;
+  }
+  p.subhead b { color: var(--ink); font-weight: 700; }
+
+  .chips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .chip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    border: 2px solid var(--line);
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(13, 26, 43, 0.06);
+    padding: 8px 10px;
+  }
+  .chip .dot { width: 9px; height: 9px; }
+  .chip .dot.acc-teal { background: linear-gradient(135deg, #0d8f8a, #2fb3ac); }
+  .chip .dot.acc-indigo { background: linear-gradient(135deg, #5646d6, #7a68f0); }
+  .chip .dot.acc-amber { background: linear-gradient(135deg, #c9740c, #e89b2e); }
+  .chip .dot.acc-violet { background: linear-gradient(135deg, #8e3ba8, #b565cd); }
+  .chip .label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--ink);
+    flex: 1;
+    line-height: 1.2;
+  }
+  .chip .note {
+    font-size: 9.5px;
+    font-weight: 700;
+    color: var(--faint);
+    white-space: nowrap;
+  }
+
+  .callout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: var(--ink);
+    color: #ffffff;
+    border-radius: 14px;
+    padding: 12px 14px;
+    font-size: 12.5px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-top: auto;
+  }
+  .callout .phone { color: #7fc4ff; }
+
+  .stamp {
+    position: absolute;
+    top: -6px;
+    right: 4px;
+    transform: rotate(7deg);
+    background: rgba(255, 255, 255, 0.75);
+    border: 2px solid var(--blue);
+    color: var(--blue-deep);
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 8px;
+    z-index: 2;
+  }
+
+  .panel {
+    background: #ffffff;
+    border: 2px solid var(--line);
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(13, 26, 43, 0.07);
+    padding: 16px 14px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+  }
+  .panel .eyebrow { color: var(--sub); margin-bottom: 2px; }
+  .panel .tick { background: linear-gradient(90deg, var(--faint), var(--line)); }
+
+  .compare-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    align-items: center;
+  }
+  .compare-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .icon { width: 17px; height: 17px; flex-shrink: 0; }
+  .icon.x circle { fill: var(--red); }
+  .icon.check circle { fill: var(--green); }
+  .compare-item span {
+    font-size: 9.5px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .compare-item.before span { color: #9c2531; }
+  .compare-item.after span { color: #0f6437; }
+
+  .divider { height: 1px; background: var(--line); border: none; margin: 0; }
+
+  .badge-row {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 9px;
+    font-weight: 700;
+    color: var(--faint);
+  }
+
+  .notes {
+    width: 100%;
+    max-width: 920px;
+    background: var(--page-panel);
+    border: 1px solid var(--page-line);
+    border-radius: 16px;
+    padding: 18px 22px;
+  }
+  .notes h2 {
+    font-size: 13px;
+    margin: 0 0 8px;
+    font-weight: 800;
+  }
+  .notes ul {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 12.5px;
+    line-height: 1.6;
+    color: var(--page-sub);
+  }
+  .notes li b { color: var(--page-ink); }
+
+  @page { size: 7.25in 5.25in; margin: 0; }
+  @media print {
+    .toolbar, .notes { display: none; }
+    .stage {
+      background: none;
+      border: none;
+      box-shadow: none;
+      padding: 0;
+      border-radius: 0;
+    }
+    .page { padding: 0; gap: 0; min-height: 0; }
+    body { background: #fff; }
+    .flyer {
+      opacity: 1;
+      transform: none;
+      border-radius: 0;
+      box-shadow: none;
+    }
+    .trim-guide, .safe-guide { display: none; }
+  }
+</style>
+
+<svg class="defs" aria-hidden="true">
+  <defs>
+    <symbol id="icon-x" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="11"></circle>
+      <path d="M8 8L16 16M16 8L8 16" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" fill="none"></path>
+    </symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="11"></circle>
+      <path d="M7 12.5L10.3 16L17 8.5" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="page">
+  <div class="toolbar">
+    <div>
+      <h1>Crystal Exteriors — Doorstep Flyer</h1>
+      <p>7 × 5in, built to the brand system in <code>brand-style-guide.md</code>. Bleed + safe margin included.</p>
+    </div>
+    <div class="toolbar-controls">
+      <label class="toggle">
+        <input type="checkbox" id="guides" />
+        Show print guides
+      </label>
+      <button class="printbtn" id="printBtn" type="button">Print / Save as PDF</button>
+    </div>
+  </div>
+
+  <div class="stage">
+    <div class="flyer" id="flyer">
+      <div class="trim-guide"></div>
+      <div class="safe-guide"></div>
+
+      <div class="content">
+        <div class="col-left">
+          <div class="brandmark">
+            <span class="name"><span class="dot"></span>Crystal Exteriors</span>
+            <span class="domain">getcrystalexteriors.com</span>
+          </div>
+
+          <div class="eyebrow"><span class="tick"></span>Palm Beach County · Soft-Wash Specialists</div>
+
+          <h1 class="headline">Restore your curb appeal —<br /><span class="hl">before the HOA notices.</span></h1>
+
+          <p class="subhead">
+            Soft-wash cleaning for driveways, siding, and roofs — gentle on
+            stucco, pavers, and tile, strong on algae and grime.
+            <b>Licensed &amp; insured</b>, serving Palm Beach County.
+          </p>
+
+          <div class="chips">
+            <div class="chip">
+              <span class="dot acc-teal"></span>
+              <span class="label">Driveway &amp; Concrete</span>
+              <span class="note">from $200</span>
+            </div>
+            <div class="chip">
+              <span class="dot acc-indigo"></span>
+              <span class="label">Siding &amp; Walls</span>
+              <span class="note">from $350</span>
+            </div>
+            <div class="chip">
+              <span class="dot acc-amber"></span>
+              <span class="label">Roof Soft-Wash</span>
+              <span class="note">from $450</span>
+            </div>
+            <div class="chip">
+              <span class="dot acc-violet"></span>
+              <span class="label">Rust &amp; Iron Stains</span>
+              <span class="note">from $400</span>
+            </div>
+          </div>
+
+          <div class="callout">Call or text <span class="phone">(561) XXX-XXXX</span> — free quote in minutes</div>
+        </div>
+
+        <div class="col-right">
+          <div class="stamp">Licensed &amp; Insured</div>
+          <div class="panel">
+            <div class="eyebrow"><span class="tick"></span>The Difference</div>
+
+            <div class="compare-row">
+              <div class="compare-item before">
+                <svg class="icon x"><use href="#icon-x"></use></svg>
+                <span>Algae &amp; mold staining</span>
+              </div>
+              <div class="compare-item after">
+                <svg class="icon check"><use href="#icon-check"></use></svg>
+                <span>Soft-washed, spotless</span>
+              </div>
+            </div>
+            <hr class="divider" />
+
+            <div class="compare-row">
+              <div class="compare-item before">
+                <svg class="icon x"><use href="#icon-x"></use></svg>
+                <span>Rust from sprinklers</span>
+              </div>
+              <div class="compare-item after">
+                <svg class="icon check"><use href="#icon-check"></use></svg>
+                <span>Removed at the source</span>
+              </div>
+            </div>
+            <hr class="divider" />
+
+            <div class="compare-row">
+              <div class="compare-item before">
+                <svg class="icon x"><use href="#icon-x"></use></svg>
+                <span>Risk of an HOA letter</span>
+              </div>
+              <div class="compare-item after">
+                <svg class="icon check"><use href="#icon-check"></use></svg>
+                <span>HOA-compliant, guaranteed</span>
+              </div>
+            </div>
+
+            <div class="badge-row">@getcrystalexteriors</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="notes">
+    <h2>Before this goes to print</h2>
+    <ul>
+      <li><b>Phone number is a placeholder</b> — "(561) XXX-XXXX" must be replaced with the real business line before printing.</li>
+      <li><b>CMYK check</b> — this preview renders in RGB. Confirm <code>#0a63c9</code> / <code>#0e9bd8</code> convert cleanly with your printer or in a design tool before final export.</li>
+      <li><b>Sizing</b> — canvas is built at 7.25 × 5.25in (7×5in trim + 0.125in bleed on all sides). Toggle "Show print guides" above to see the trim line and 0.25in safe margin.</li>
+      <li><b>Export</b> — "Print / Save as PDF" opens the browser print dialog pre-sized to 7.25 × 5.25in with no margin; choose "Save as PDF" and hand that file to the print shop, or print a physical proof first.</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+  var guides = document.getElementById("guides");
+  var flyer = document.getElementById("flyer");
+  guides.addEventListener("change", function () {
+    flyer.classList.toggle("show-guides", guides.checked);
+  });
+  document.getElementById("printBtn").addEventListener("click", function () {
+    window.print();
+  });
+</script>
